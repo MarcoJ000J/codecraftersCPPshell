@@ -15,7 +15,7 @@ int main() {
   if (input == "exit 0") return 0;
 
 
-  else if (input.find("echo") != std::string::npos) std::cout << input.sbstr(5) << std::endl;
+  else if (input.find("echo") != std::string::npos) std::cout << input.substr(5) << std::endl;
 
   else std::cout << input << ": command not found"<< std::endl;
 
