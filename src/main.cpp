@@ -19,10 +19,10 @@ int main() {
 
   else if (input.find("type") != std::string::npos) {
 	  std::string temp = input.substr(5);
-	  if(temp == "echo" || temp == "exit" || temp == "type"){
+	  if(temp == "echo " || temp == "exit " || temp == "type "){
 		  std::cout << input << ": command not found"<< std::endl;
 	  }
-	  else std::cout << temp << ": is a invalid command";
+	  else std::cout << input << ": command not found"<< std::endl;
   }
 
 
