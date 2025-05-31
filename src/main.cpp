@@ -10,12 +10,9 @@ int main() {
   std::cout << "$ ";
 
   std::string input;
+  std::getline(std::cin, input);
 
-  std::boolean nah = true;
+  std::cout << input << ": command not found"<< std::endl;
 
-  std::for(nah){
-	  std::getline(std::cin, input);
-
-	  std::cout << input << ": command not found"<< std::endl;
-  }
+  main();
 }
