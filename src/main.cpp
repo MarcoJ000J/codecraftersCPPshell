@@ -13,7 +13,7 @@ int main() {
 
   std::boolean nah = true;
 
-  for(nah){
+  std::for(nah){
 	  std::getline(std::cin, input);
 
 	  std::cout << input << ": command not found"<< std::endl;
