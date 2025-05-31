@@ -19,7 +19,7 @@ int main() {
 
   else if (input.find("type") != std::string::npos) {
 	  std::string temp = input.substr(5);
-	  if(temp = "echo" || temp "exit" || temp = "type") std::cout << temp << " is a shell builtin" <<std::endl;
+	  if(temp == "echo" || temp == "exit" || temp == "type") std::cout << temp << " is a shell builtin" << std::endl;
 	  else std::cout << temp << ": is a invalid command";
   }
 
